@@ -1,0 +1,29 @@
+{
+    "name": "juzdy/app-http-middleware",
+    "description": "Juzdy HTTP Middleware Common pack",
+    "keywords": ["php", "juzdy", "http", "app", "middleware"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Galitsky",
+            "email": "concept.galitsky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "juzdy/app": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juzdy\\Http\\Middleware": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "extra": {
+    },
+    "config": {
+    }
+}
