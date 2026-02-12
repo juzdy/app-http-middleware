@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Juzdy\\Http\\Middleware": "src/"
+            "Juzdy\\Http\\Middleware\\": "src/"
         }
     },
     "autoload-dev": {
